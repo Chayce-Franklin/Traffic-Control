@@ -18,17 +18,6 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 warnings.filterwarnings("ignore")
 
-# Uninstall all conflicting packages first
-#!pip uninstall numpy tensorflow ml-dtypes -y
-
-# Install numpy==2.0.0 as required by JAX and ml-dtypes 0.5.0
-#!pip install numpy==2.0.0
-
-# Force install ml-dtypes 0.5.1 to ensure it satisfies tensorflow>=0.5.1 and JAX>=0.5.0
-#!pip install ml-dtypes==0.5.1 --force-reinstall
-
-#!pip install tensorflow==2.19.0
-
 
 def MAPE(y_true, y_pred):
     """Mean Absolute Percentage Error
