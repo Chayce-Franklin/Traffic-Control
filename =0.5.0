@@ -1,0 +1,2 @@
+Requirement already satisfied: ml-dtypes in /usr/local/lib/python3.12/dist-packages (0.3.2)
+Requirement already satisfied: numpy>1.20 in /usr/local/lib/python3.12/dist-packages (from ml-dtypes) (1.26.4)
