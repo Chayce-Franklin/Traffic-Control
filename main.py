@@ -17,7 +17,7 @@ import sklearn.metrics as metrics
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 warnings.filterwarnings("ignore")
-
+plt.ion()
 
 def MAPE(y_true, y_pred):
     """Mean Absolute Percentage Error
@@ -323,7 +323,7 @@ def main():
       eva_regress(y_test, predicted)
 
   plot_results(y_test[:288], y_preds_noisy, [f"{n}_noisy" for n in model_names])
-
+  input("Hit enter to end program")
 
 if __name__ == '__main__':
     main()
